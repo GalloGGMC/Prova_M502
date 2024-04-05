@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard
+    </title>
+    <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+</head>
+<body>
+    <h1>Historico:</h1>
+    <ul class="guarda-log" hx-get="http://127.0.0.1:5000/info" hx-trigger="every 5s">
+    </ul>
+</body>
+</html>
